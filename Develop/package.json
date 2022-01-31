@@ -1,28 +1,28 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "challenge-13-orm",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/DSiedlarz90/Challenge-13-ORM.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
+  "bugs": {
+    "url": "https://github.com/DSiedlarz90/Challenge-13-ORM/issues"
   },
+  "homepage": "https://github.com/DSiedlarz90/Challenge-13-ORM#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.7"
-  }
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.15.0"
+  },
+  "devDependencies": {}
 }
